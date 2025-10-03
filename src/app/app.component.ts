@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
 
 
 @Component({
@@ -18,7 +17,7 @@ alt="logo" aria-hidden="true">
   `,
 
   styleUrls: ['./app.component.css'],
-  imports:[HomeComponent,RouterModule]
+  imports:[RouterModule]
 })
 export class AppComponent {
   title = 'homes';
